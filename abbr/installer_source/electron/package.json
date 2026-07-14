@@ -1,0 +1,29 @@
+{
+  "name": "abbr-search-desktop",
+  "productName": "AbbrSearch",
+  "version": "1.2.0",
+  "description": "Abbreviation 12 Full live search (desktop wrapper)",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder --publish never",
+    "dist:win": "electron-builder --win nsis --x64",
+    "dist:mac": "electron-builder --mac"
+  },
+  "build": {
+    "appId": "com.aabaz.abbrsearch",
+    "productName": "AbbrSearch",
+    "directories": { "output": "dist", "buildResources": "icons" },
+    "files": ["main.js", "preload.js", "renderer/**"],
+    "win": { "target": ["nsis"], "icon": "icons/icon.ico" },
+    "nsis": { "oneClick": false, "perMachine": false },
+    "mac": { "target": ["dmg","zip"], "icon": "icons/icon.icns" },
+    "publish": [{ "provider": "generic", "url": "https://tools.aabaz.com/abbr/releases/" }]
+  },
+  "devDependencies": {
+    "electron": "^26.0.0",
+    "electron-builder": "^24.6.0",
+    "electron-updater": "^5.4.19",
+    "electron-is-dev": "^2.0.0"
+  }
+}

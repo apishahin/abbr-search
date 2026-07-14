@@ -1,0 +1,4 @@
+id,abbreviation,full_text,aliases,tags,language,notes
+1,API,Application Programming Interface,"App PI|Application PI",tech|api,en,common term
+2,HTTP,HyperText Transfer Protocol,,tech|web,en,
+3,ACC,Account,acct|a/c,finance,en,

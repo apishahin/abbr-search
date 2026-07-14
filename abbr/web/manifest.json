@@ -1,0 +1,13 @@
+{
+  "name": "Abbr 12 Full 12 tools.aabaz.com/abbr",
+  "short_name": "AbbrSearch",
+  "start_url": "/abbr/index.html",
+  "scope": "/abbr/",
+  "display": "standalone",
+  "background_color": "#0b5fff",
+  "theme_color": "#0b5fff",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}

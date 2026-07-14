@@ -1,0 +1,12 @@
+{
+  "app_version": "1.0.0",
+  "debounce_ms": 300,
+  "max_results": 20,
+  "show_ads": false,
+  "ad_endpoint": "https://tools.aabaz.com/abbr/ads.json",
+  "hide_field_if_no_ad": true,
+  "update_check_enabled": false,
+  "update_manifest_url": "https://tools.aabaz.com/abbr/update_manifest.json",
+  "force_update_on_new_version": false,
+  "data_url": "https://tools.aabaz.com/abbr/terms.csv"
+}
